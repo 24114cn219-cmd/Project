@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features - AI-Based Smart Allocation Engine</title>
+  <link rel="icon" type="image/png" href="logo.png.svg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #0d6efd;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 40px;
+    }
+
+    header a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    header h1 {
+      margin-left: 10px;
+      font-size: 1.6rem;
+    }
+
+    nav {
+      background-color: #717375;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px 0;
+      border-radius: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffc107;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #0d6efd;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a href="javascript:void(0);" onclick="location.reload();">
+      <img src="https://via.placeholder.com/50" alt="Logo">
+      <h1>AI-Based Smart Allocation Engine</h1>
+    </a>
+  </header>
+
+  <nav>
+    <a href="{% url 'index' %}">Home</a>
+    <a href="{% url 'registration' %}">Registration/Login</a>
+    <a href="{% url 'contact' %}">Contact</a>
+    <a href="{% url 'about' %}">About Us</a>
+    <a href="{% url 'features' %}">Features</a>
+    <a href="{% url 'quicklinks' %}">Quick Links</a>
+</nav>
+
+
+  <div class="container">
+    <h2>Project Features & Idea</h2>
+    <p>The AI-Based Smart Allocation Engine is designed to streamline the internship allocation process for students and
+      companies. By leveraging artificial intelligence, the system ensures optimal matches based on skills, preferences,
+      and company requirements.</p>
+
+    <h3>Key Features:</h3>
+    <ul>
+      <li><strong>Student Registration:</strong> Students can create profiles, upload resumes, and select preferred
+        internship locations.</li>
+      <li><strong>Company Registration:</strong> Companies can post internship opportunities and track applications.
+      </li>
+      <li><strong>Smart Allocation:</strong> AI-powered algorithm matches students with suitable internship positions.
+      </li>
+      <li><strong>OTP Authentication:</strong> Secure login and registration via OTP verification.</li>
+      <li><strong>Forgot Password Feature:</strong> Users can easily reset passwords using verified OTP.</li>
+      <li><strong>Admin Control:</strong> Administrators can monitor registrations, manage users, and oversee
+        allocations.</li>
+      <li><strong>Transparent Dashboard:</strong> Both students and companies can view and track progress.</li>
+    </ul>
+
+    <p>Our goal is to make internship allocation efficient, fair, and fully automated, saving time and effort for both
+      students and companies.</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 AI-Based Smart Allocation Engine | All Rights Reserved</p>
+  </footer>
+
+</body>
+
+</html>
